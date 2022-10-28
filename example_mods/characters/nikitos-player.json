@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-34,
+				-1
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Nikitos Idle Dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-34,
+				-42
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Nikitos Down Note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-4
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Nikitos Up Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-3
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Nikitos Right Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Nikitos Left Note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-2,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Nikitos Up MISS"
+		},
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Nikitos Right MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				-39
+			],
+			"anim": "singDOWNmiss",
+			"fps": 30,
+			"name": "Nikitos Down MISS0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				-1
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 30,
+			"name": "Nikitos Left MISS",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Nikitos_Player",
+	"position": [
+		-40,
+		-120
+	],
+	"healthicon": "nikitos",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		102,
+		204
+	],
+	"camera_position": [
+		-110,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

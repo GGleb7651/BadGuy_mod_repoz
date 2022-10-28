@@ -1,0 +1,78 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        0,
+        95
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "idle",
+      "loop": false,
+      "name": "Badguy idle"
+    },
+    {
+      "offsets": [
+        20,
+        75
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singLEFT",
+      "loop": false,
+      "name": "Badguy left"
+    },
+    {
+      "offsets": [
+        20,
+        75
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singDOWN",
+      "loop": false,
+      "name": "Badguy down"
+    },
+    {
+      "offsets": [
+        20,
+        75
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singUP",
+      "loop": false,
+      "name": "Badguy up"
+    },
+    {
+      "offsets": [
+        0,
+        30
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singRIGHT",
+      "loop": false,
+      "name": "Badguy right"
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/nightmarish",
+  "position": [
+    0,
+    0
+  ],
+  "healthicon": "NightmareBadguy",
+  "flip_x": false,
+  "healthbar_colors": [
+    100,
+    0,
+    200
+  ],
+  "camera_position": [
+    0,
+    0
+  ],
+  "sing_duration": 6.1,
+  "scale": 0.8
+}
