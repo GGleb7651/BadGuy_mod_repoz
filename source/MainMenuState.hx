@@ -1,5 +1,7 @@
 package;
 
+import flixel.addons.display.FlxBackdrop; 
+
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -27,6 +29,9 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.6.2'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
+
+	var checker:FlxBackdrop; 
+	var checker1:FlxBackdrop; 
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	private var camGame:FlxCamera;
@@ -79,12 +84,40 @@ class MainMenuState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
+		checker1 = new FlxBackdrop(Paths.image('baller'), 0.2, 0.2, true, true); 
+        //checker.velocity.set(112, 110); 
+        checker1.updateHitbox(); 
+        checker1.scrollFactor.set(0, 0); 
+        checker1.alpha = 1; 
+        checker1.screenCenter(X);
+		checker1.color = 0x5900FF; 
+        add(checker1);
+
+		checker = new FlxBackdrop(Paths.image('baller'), 0.2, 0.2, true, true); 
+        //checker.velocity.set(112, 110); 
+        checker.updateHitbox(); 
+        checker.scrollFactor.set(0, 0); 
+        checker.alpha = 1; 
+        checker.screenCenter(X);
+		checker.visible = false;
+		checker.antialiasing = ClientPrefs.globalAntialiasing;
+		checker.color = 0xffca01fc; 
+        add(checker);
+
 		personajes = new FlxSprite(0,0);
 		personajes.loadGraphic(Paths.image('menumod/personajes/' + optionShit[curSelected]));
 		personajes.scrollFactor.set(0, 0);
 		personajes.setGraphicSize(Std.int(personajes.width * 1));
 		personajes.antialiasing = ClientPrefs.globalAntialiasing;
 		add(personajes);
+
+		var bg1:FlxSprite = new FlxSprite(0).loadGraphic(Paths.image('menumod/menuBG2'));
+		bg1.scrollFactor.set(0, 0);
+		bg1.setGraphicSize(Std.int(bg.width * 1));
+		bg1.updateHitbox();
+		bg1.screenCenter();
+		bg1.antialiasing = ClientPrefs.globalAntialiasing;
+		add(bg1);
 
 		var splash:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('menumod/Splash'));
 		splash.scrollFactor.set(0, 0);
@@ -168,6 +201,12 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+
+		checker.x = 0;
+        checker.y -= 0.16 / (ClientPrefs.framerate / 60);
+		checker1.x = 0;
+        checker1.y -= 0.16 / (ClientPrefs.framerate / 60);
+
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -215,6 +254,10 @@ class MainMenuState extends MusicBeatState
 				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
+
+					if(ClientPrefs.flashing) FlxFlicker.flicker(checker, 1.1, 0.15, false);
+
+
 					menuItems.forEach(function(spr:FlxSprite)
 					{
 						if (curSelected != spr.ID)
