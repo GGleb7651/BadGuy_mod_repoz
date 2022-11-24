@@ -1,0 +1,10 @@
+{
+  "idle_anim": "badguyidle",
+  "image": "Menu_badguy",
+  "position": [
+    0,
+    0
+  ],
+  "scale": 1,
+  "confirm_anim": "badguyidle"
+}

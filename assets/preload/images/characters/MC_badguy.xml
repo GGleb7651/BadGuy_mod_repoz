@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MC_badguy.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MCdown0000" x="1288" y="2000" width="580" height="1000"/>
+	<SubTexture name="MCdown0001" x="1288" y="2000" width="580" height="1000"/>
+	<SubTexture name="MCdown0002" x="1288" y="2000" width="580" height="1000"/>
+	<SubTexture name="MCdown0003" x="1900" y="2000" width="550" height="1000"/>
+	<SubTexture name="MCdown0004" x="1900" y="2000" width="550" height="1000"/>
+	<SubTexture name="MCdown0005" x="1900" y="2000" width="550" height="1000"/>
+	<SubTexture name="MCright0000" x="0" y="1980" width="630" height="1020"/>
+	<SubTexture name="MCright0001" x="630" y="1980" width="630" height="1020"/>
+	<SubTexture name="MCleft0000" x="0" y="980" width="565" height="915"/>
+	<SubTexture name="MCleft0001" x="560" y="980" width="565" height="915"/>
+	<SubTexture name="MCidle0000" x="0" y="0" width="510" height="980"/>
+	<SubTexture name="MCidle0001" x="0" y="0" width="510" height="980"/>
+	<SubTexture name="MCidle0002" x="0" y="0" width="510" height="980"/>
+	<SubTexture name="MCidle0003" x="0" y="0" width="510" height="980"/>
+	<SubTexture name="MCidle0004" x="0" y="0" width="510" height="980"/>
+	<SubTexture name="MCidle0005" x="0" y="0" width="510" height="980"/>
+	<SubTexture name="MCidle0006" x="538" y="0" width="500" height="1000"/>
+	<SubTexture name="MCidle0007" x="538" y="0" width="500" height="1000"/>
+	<SubTexture name="MCidle0008" x="538" y="0" width="500" height="1000"/>
+	<SubTexture name="MCidle0009" x="538" y="0" width="500" height="1000"/>
+	<SubTexture name="MCidle0010" x="538" y="0" width="500" height="1000"/>
+	<SubTexture name="MCidle0011" x="538" y="0" width="500" height="1000"/>
+	<SubTexture name="MCidle0012" x="1020" y="0" width="625" height="990"/>
+	<SubTexture name="MCidle0013" x="1020" y="0" width="625" height="990"/>
+	<SubTexture name="MCidle0014" x="1020" y="0" width="625" height="990"/>
+	<SubTexture name="MCup0000" x="1700" y="0" width="660" height="1015"/>
+	<SubTexture name="MCup0001" x="1700" y="0" width="660" height="1015"/>
+	<SubTexture name="MCup0002" x="1700" y="0" width="660" height="1015"/>
+	<SubTexture name="MCup0003" x="1786" y="1025" width="570" height="900"/>
+	<SubTexture name="MCup0004" x="1786" y="1025" width="570" height="900"/>
+	<SubTexture name="MCup0005" x="1786" y="1025" width="570" height="900"/>
+	<SubTexture name="MCup0006" x="1786" y="1025" width="570" height="900"/>
+	<SubTexture name="MCshoot0000" x="2455" y="100" width="710" height="905"/>
+	<SubTexture name="MCshoot0001" x="2455" y="100" width="710" height="905"/>
+	<SubTexture name="MCshoot0002" x="2455" y="100" width="710" height="905"/>
+	<SubTexture name="MCshoot0003" x="2455" y="100" width="710" height="905"/>
+	<SubTexture name="MCshoot0004" x="2455" y="100" width="710" height="905"/>
+	<SubTexture name="MCshoot0005" x="2455" y="100" width="710" height="905"/>
+	<SubTexture name="MCshoot0006" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0007" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0008" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0009" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0010" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0011" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0012" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0013" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0014" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0015" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0016" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0017" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0018" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0019" x="2455" y="1000" width="710" height="905"/>
+	<SubTexture name="MCshoot0020" x="2455" y="1000" width="710" height="905"/>
+</TextureAtlas>
+ 
