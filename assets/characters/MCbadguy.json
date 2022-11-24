@@ -1,0 +1,122 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        0,
+        81
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "idle",
+      "indices": [],
+      "name": "MCidle"
+    },
+    {
+      "offsets": [
+        70,
+        27
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singLEFT",
+      "indices": [],
+      "name": "MCleft"
+    },
+    {
+      "offsets": [
+        0,
+        39
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singRIGHT",
+      "indices": [],
+      "name": "MCright"
+    },
+    {
+      "offsets": [
+        -8,
+        46
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singDOWN",
+      "indices": [],
+      "name": "MCdown"
+    },
+    {
+      "offsets": [
+        25,
+        50
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singUP",
+      "indices": [],
+      "name": "MCup"
+    },
+    {
+      "offsets": [
+        -1,
+        0
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "shootLEFT",
+      "loop": false,
+      "name": "MCshoot"
+    },
+    {
+      "offsets": [
+        -1,
+        0
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "shootRIGHT",
+      "loop": false,
+      "name": "MCshoot"
+    },
+    {
+      "offsets": [
+        -1,
+        0
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "shootUP",
+      "loop": false,
+      "name": "MCshoot"
+    },
+    {
+      "offsets": [
+        -1,
+        0
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "shootDOWN",
+      "loop": false,
+      "name": "MCshoot"
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/MC_badguy",
+  "position": [
+    0,
+    0
+  ],
+  "healthicon": "icon-mc",
+  "flip_x": false,
+  "healthbar_colors": [
+    115,
+    0,
+    255
+  ],
+  "camera_position": [
+    0,
+    0
+  ],
+  "sing_duration": 4,
+  "scale": 0.7
+}
